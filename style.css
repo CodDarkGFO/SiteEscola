@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
 
 /*  PASSO 01 
 
@@ -25,4 +29,29 @@ body {
     header {
         background-color: #383D58;
         color: white;
+        }
+
+    /*   PASSO 5 LOGO IMAGEM    */ 
+    .cabecalho-imagem{
+
+        width: 20%;
+
+    }
+
+    
+
+    .cabecalho {
+    background-color: #383D58;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    padding: 24px 0;
+
+    }
+
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        padding: 24px 0;
+        font-size: 24px;
         }
